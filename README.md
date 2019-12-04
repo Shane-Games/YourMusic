@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f9da552e0ffba303bc8eea4e0dfac0fb7fe234e4aa1a3fbb54c7b9958d57a180
-size 82
+# YourMusic
+
+##### A free music player with no ads and customization for your needs.
+
+## Pre-requisites
+
+#### Get Node JS from
+[https://nodejs.org/en/](https://nodejs.org/en/)
+
+## Cloning the code
+```bash
+git clone https://github.com/shane-games/YourMusic.git
+```
+
+## Installing and running
+```bash
+npm install
+```
+```bash
+npm start
+```
+
+
+
+

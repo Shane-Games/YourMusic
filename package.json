@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:560e5523037b14f734bf7cc247f15ee649d07671fd093ee90752b6cff96f57c6
-size 637
+{
+  "name": "yourmusic",
+  "version": "1.0.0",
+  "description": "A free music player with no ads and customization for your needs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shane-Games/YourMusic.git"
+  },
+  "keywords": [
+    "music",
+    "free",
+    "nodejs"
+  ],
+  "author": "Shane-Games",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Shane-Games/YourMusic/issues"
+  },
+  "homepage": "https://github.com/Shane-Games/YourMusic#readme",
+  "devDependencies": {
+    "electron": "^7.1.3"
+  },
+  "dependencies": {}
+}
