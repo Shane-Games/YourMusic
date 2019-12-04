@@ -2,9 +2,9 @@
 
 [![Build Status](https://travis-ci.com/Shane-Games/YourMusic.svg?branch=master)](https://travis-ci.com/Shane-Games/YourMusic)
 
-## Pre-requisites
-
 ##### A free music player with no ads and customization for your needs.
+
+## Pre-requisites
 
 #### Get Node JS from
 [https://nodejs.org/en/](https://nodejs.org/en/)
