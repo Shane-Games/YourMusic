@@ -1,6 +1,7 @@
 # YourMusic
 
 ##### A free music player with no ads and customization for your needs.
+[![Build Status](https://travis-ci.com/Shane-Games/YourMusic.svg?branch=master)](https://travis-ci.com/Shane-Games/YourMusic)
 
 ## Pre-requisites
 
