@@ -4,7 +4,8 @@
   "description": "A free music player with no ads and customization for your needs.",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "test": "echo hello test"
   },
   "repository": {
     "type": "git",
