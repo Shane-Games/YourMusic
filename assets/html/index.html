@@ -27,6 +27,11 @@
 
         .slider {
             width: 75%;
+            padding: 1%;
+        }
+
+        .controls {
+            padding: 1%;
         }
 
         .time {
@@ -81,23 +86,21 @@
             background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
             cursor: pointer;
         }
-        .volume{
-        }
-        audio { width: 200px; }
     </style>
 </head>
 
 <body>
+    <audio id="audio" src="normal.mp3"></audio>
     <div class="playermain">
         <div class="controls">
-            <img width="30px" src="play.png" onclick="playOrPause();">
+            <img width="30px" src="play.png" onclick="togglePlay();">
         </div>
         <div class="slider">
             <input id="slider" class="time" type="range" min="0" step="1" value="0"></input>
             <input id="volume" class="volume" type="range" min="0" step="1"></input>
-            
         </div>
     </div>
+    <script src="player.js"></script>
 </body>
 
 </html>
