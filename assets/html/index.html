@@ -12,8 +12,9 @@
 
         .playermain {
             text-align: center;
-            width: 80%;
-            background: white;
+            vertical-align: center;
+            width: 100%;
+            background: rgba(0, 0, 0, 1);
             margin: auto;
             display: flex;
             justify-content: center;
@@ -24,18 +25,79 @@
             left: 0;
         }
 
-        audio {
-            background: #95B9C7;
-            color: #95B9C7;
+        .slider {
+            width: 75%;
         }
+
+        .time {
+            -webkit-appearance: none;
+            width: 75%;
+            height: 25px;
+            border-radius: 100px;
+        }
+        
+        .time::-webkit-slider-thumb {
+            border-radius: 100px;
+            -webkit-appearance: none;
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+            cursor: pointer;
+            padding: 1px;
+        }
+
+        .time::-moz-range-thumb {
+            border-radius: 100px;
+            width: 25px;
+            height: 25px;
+            background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+            cursor: pointer;
+        }
+
+        .volume {
+            -webkit-appearance: none;
+            width: 15
+            15%;
+            height: 25px;
+            border-radius: 100px;
+        }
+        
+        .volume::-webkit-slider-thumb {
+            border-radius: 100px;
+            -webkit-appearance: none;
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+            cursor: pointer;
+            padding: 1px;
+        }
+
+        .volume::-moz-range-thumb {
+            border-radius: 100px;
+            width: 25px;
+            height: 25px;
+            background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+            cursor: pointer;
+        }
+        .volume{
+        }
+        audio { width: 200px; }
     </style>
 </head>
 
 <body>
     <div class="playermain">
-        <div class="container-audio">
-            <p>Nothing here yet ;)</p>
+        <div class="controls">
+            <img width="30px" src="play.png" onclick="playOrPause();">
         </div>
+        <div class="slider">
+            <input id="slider" class="time" type="range" min="0" step="1" value="0"></input>
+            <input id="volume" class="volume" type="range" min="0" step="1"></input>
+            
+        </div>
+    </div>
 </body>
 
 </html>
