@@ -12,10 +12,8 @@
 
         .playermain {
             text-align: center;
-            vertical-align: center;
             width: 100%;
-            background: rgba(0, 0, 0, 1);
-            margin: auto;
+            background: rgba(0, 0, 0, .75);
             display: flex;
             justify-content: center;
 
@@ -93,10 +91,10 @@
     <audio id="audio" src="normal.mp3"></audio>
     <div class="playermain">
         <div class="controls">
-            <img width="30px" src="play.png" onclick="togglePlay();">
+            <img width="30px" src="play2.png" id="playerBtn" onclick="togglePlay();">
         </div>
         <div class="slider">
-            <input id="slider" class="time" type="range" min="0" step="1" value="0"></input>
+            <input id="time" class="time" type="range" min="0" step="1" value="0"></input>
             <input id="volume" class="volume" type="range" min="0" step="1"></input>
         </div>
     </div>
