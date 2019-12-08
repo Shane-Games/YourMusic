@@ -11,7 +11,7 @@ function togglePlay() {
     playPauseBtn.src = "pause.png";
   } else {
     song.pause();
-    playPauseBtn.src = "play2.png";
+    playPauseBtn.src = "play.png";
   }
 }
 

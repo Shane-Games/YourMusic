@@ -4,6 +4,7 @@ let path = require("path");
 function createWindow() {
   // Create the browser window.
   let win = new BrowserWindow({
+    icon: path.join(__dirname, "./assets/icons/icon.icns"),
     icon: path.join(__dirname, "./assets/icons/icon.ico")
   });
 
