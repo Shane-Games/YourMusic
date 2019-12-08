@@ -2,9 +2,8 @@ const { app, BrowserWindow, Menu } = require("electron");
 let path = require("path");
 
 function createWindow() {
-  // Create the browser window.
   let win = new BrowserWindow({
-    icon: path.join(__dirname, "./assets/icons/icon.icns"),
+    title: "YourMusic",
     icon: path.join(__dirname, "./assets/icons/icon.ico")
   });
 

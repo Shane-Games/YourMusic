@@ -8,10 +8,10 @@ volumeSlider.value = "50";
 function togglePlay() {
   if (song.paused) {
     song.play();
-    playPauseBtn.src = "pause.png";
+    playPauseBtn.src = "../images/pause.png";
   } else {
     song.pause();
-    playPauseBtn.src = "play.png";
+    playPauseBtn.src = "../images/play.png";
   }
 }
 
